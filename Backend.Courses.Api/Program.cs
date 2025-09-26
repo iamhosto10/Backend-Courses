@@ -9,8 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 // =====================
 // MongoDB Configuration
 // =====================
-builder.Services.Configure<MongoSettings>(
-    builder.Configuration.GetSection("MongoSettings"));
+builder.Services.Configure<MongoSettings>(options =>
+{
+    options.ConnectionString = Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING")
+        ?? builder.Configuration["MongoSettings:ConnectionString"] ?? "";
+    options.DatabaseName = builder.Configuration["MongoDbSettings:DatabaseName"]!;
+});
 
 // Registramos MongoSettings para inyección directa
 builder.Services.AddSingleton(sp =>
