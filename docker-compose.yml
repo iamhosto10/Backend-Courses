@@ -19,9 +19,10 @@ services:
       - "5001:8080"
     depends_on:
       - mongo
+    env_file:
+      - .env
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - MongoSettings__ConnectionString=mongodb://mongo:27017
+      - ASPNETCORE_ENVIRONMENT=Production
       - MongoSettings__DatabaseName=CoursesDb
 
 volumes:
