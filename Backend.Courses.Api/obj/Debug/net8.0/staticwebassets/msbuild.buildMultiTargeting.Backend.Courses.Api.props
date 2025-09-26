@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Backend.Courses.Api.props" />
+</Project>

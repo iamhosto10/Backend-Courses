@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Infrastructure/Backend.Courses.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/Backend.Courses.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/Backend.Courses.Application.csproj",
+        "projectName": "Backend.Courses.Application",
+        "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/Backend.Courses.Application.csproj",
+        "packagesPath": "/Users/gerardoramirez/.nuget/packages/",
+        "outputPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gerardoramirez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj": {
+                "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj",
+        "projectName": "Backend.Courses.Domain",
+        "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj",
+        "packagesPath": "/Users/gerardoramirez/.nuget/packages/",
+        "outputPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gerardoramirez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Infrastructure/Backend.Courses.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Infrastructure/Backend.Courses.Infrastructure.csproj",
+        "projectName": "Backend.Courses.Infrastructure",
+        "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Infrastructure/Backend.Courses.Infrastructure.csproj",
+        "packagesPath": "/Users/gerardoramirez/.nuget/packages/",
+        "outputPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gerardoramirez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/Backend.Courses.Application.csproj": {
+                "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Application/Backend.Courses.Application.csproj"
+              },
+              "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj": {
+                "projectPath": "/Users/gerardoramirez/Desktop/test backend api .net/Backend.Courses.Domain/Backend.Courses.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
